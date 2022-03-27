@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Hardest-Working Userscript
+// @name         Who-Many Userscript
 // @namespace    http://tampermonkey.net/
 // @version       1.1.0
 // @description   Displays the number of current chats for each librarian, along with # of ops bereft of chat partners
