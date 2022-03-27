@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hardest-Working Userscript
 // @namespace    http://tampermonkey.net/
-// @version       0.3.2
+// @version       1.1.0
 // @description   Displays the number of current chats for each librarian, along with # of ops bereft of chat partners
 // @author        bruce flaco jensen
 // @match        https://247cooperative.libanswers.com/admin/dashboard
