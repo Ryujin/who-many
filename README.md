@@ -1,4 +1,4 @@
-# Who-many is a simple load-balancing helper for LibChat.
+# See <i>who</i> in LibChat has <i>how many</i>: Quick load-balancing helper
 ## It shows, on the LC dashboard, the real-time count of callers currently engaged by each librarian.
 ### The tool is written in JavaScript and it runs in browser extensions such as [Tampermonkey](https://www.tampermonkey.net/ "Tampermonkey downloads and user guides") and [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ "Greasemonkey for Firefox"). (The latter is a Firefox extension with a long history, and it's even been [ported to SeaMonkey](https://openuserjs.org/about/Greasemonkey-Port-for-SeaMonkey "Greasemonkey for SeaMonkey, just for Mimi!"), a niche browser beloved by certain superstar librarians; Tampermonkey runs on all major browsers including Chrome, Edge, Firefox, Opera, and Safari.)
 
