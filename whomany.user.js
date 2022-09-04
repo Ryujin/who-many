@@ -61,6 +61,9 @@ var color3 = "Tomato";
                                         if (lastname == "24/7") {
                                             lastname = namArray.pop();
                                         }
+                                        if (lastname == "S") {
+                                            lastname = "Beth";
+                                        }
                                         lastnames.push(lastname);
                                         var lastnameStr = lastnames.toString();
                                         function foo(lastnames) {
