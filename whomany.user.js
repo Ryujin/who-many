@@ -62,7 +62,12 @@ var color3 = "Tomato";
                                             lastname = namArray.pop();
                                         }
                                         if (lastname == "S") {
-                                            lastname = "Beth";
+                                            lastname = namArray.pop();
+                                            if (lastname == "Tariel") {
+                                                lastname = "Helen"
+                                            } else if (lastname == "Lake") {
+                                                lastname = "Beth"
+                                            }
                                         }
                                         lastnames.push(lastname);
                                         var lastnameStr = lastnames.toString();
