@@ -61,7 +61,7 @@ var color3 = "Tomato";
                                         if (lastname == "24/7") {
                                             lastname = namArray.pop();
                                         }
-                                        if (lastname == "S") {
+                                        if (lastname.length == 1) {
                                             lastname = namArray.pop();
                                             if (lastname == "Tariel") {
                                                 lastname = "Helen"
