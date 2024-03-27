@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Who-Many Userscript
 // @namespace    http://tampermonkey.net/
-// @version       1.1.0
+// @version       1.2.0
 // @description   Displays the number of current chats for each librarian, along with # of ops bereft of chat partners
 // @author        bruce flaco jensen
 // @match        https://247cooperative.libanswers.com/admin/dashboard
@@ -61,6 +61,9 @@ var color3 = "Tomato";
                                         if (lastname == "24/7") {
                                             lastname = namArray.pop();
                                         }
+                                        if (lastname == "P.") {
+                                                lastname = "Lauren"
+                                            }
                                         if (lastname.length == 1) {
                                             lastname = namArray.pop();
                                             if (lastname == "Tariel") {
